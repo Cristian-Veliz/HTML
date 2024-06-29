@@ -7,12 +7,14 @@
     <title>HTML</title>
   </head>
   <body>
-    <form>
+    <form action="/formulario" method="get">
+      <hr>
       <br>
       <label for="Nombre">Nombre</label>
       <input 
       id="Nombre" 
       name="Nombre"
+      value=""
       type="text" 
       placeholder="Ingrese su nombre">
       <br>
@@ -21,6 +23,7 @@
       <input
       id="Apellido"
       name="Apellido" 
+      value=""
       placeholder="Ingrese su apellido"
       type="text"
       >
@@ -34,7 +37,7 @@
       id="comentario" 
       cols="30" 
       rows="10"
-      ></textarea>
+      >Este es un valor por defecto</textarea>
       <br>
       <input type="submit">
       <button type="button">submit</button>
@@ -64,7 +67,7 @@
     </p>
     <hr>
     <a target="_blank" href="https://porfolio-web-rkse.vercel.app/" style="text-decoration: none;">Ir a mi sitio web</a>
-    
+    <hr>
     <!--Estoy probando los comentarios en html-->
   </body>
 </html>
