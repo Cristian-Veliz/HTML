@@ -7,6 +7,28 @@
     <title>HTML</title>
   </head>
   <body>
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+    <ol start="1" type="a">
+      <li>Objeto 1</li>
+      <li>Objeto 2</li>
+      <li>Objeto 3</li>
+      <li>Objeto 4</li>
+      <li>
+        <ol type="I">
+          <li>Sub objeto 1</li>
+          <li>Sub objeto 2</li>
+          <li>Sub objeto 3</li>
+        </ol>
+      </li>
+    </ol>
+
+
+
     <form action="/formulario" method="get">
       <hr>
       <br>
@@ -14,7 +36,7 @@
       <input 
       id="Nombre" 
       name="Nombre"
-      value=""
+      value="Cris"
       type="text" 
       placeholder="Ingrese su nombre">
       <br>
@@ -40,7 +62,8 @@
       >Este es un valor por defecto</textarea>
       <br>
       <input type="submit">
-      <button type="button">submit</button>
+      <button type="button">Submit</button>
+      <button type="reset">Reset</button>
     </form>
     <h1>Mi primer Heading</h1>
     <hr />
